@@ -1,6 +1,7 @@
 string ari (string s){
   float a=0.0,b=0.0,c=0.0;
   float ari;
+  int ar;
   string s1;
   for(int i=0;s[i]!=\n;i++){
     if(s[i]==' ')
