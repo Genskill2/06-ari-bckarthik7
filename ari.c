@@ -3,7 +3,7 @@ string ari (string s){
   float a1;
   float ar;
   string s1;
-  for(int i=0;s[i]!=\n;i++){
+  for(int i=0;s[i]!='\n';i++){
     if(s[i]==' ')
       a=a+1.0;
     if(s[i]=='.')
