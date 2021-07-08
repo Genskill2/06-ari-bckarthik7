@@ -13,17 +13,17 @@ string ari (string s){
   a1=4.71*(c/a)*(a/b);
   ar=ceil(a1);
   switch (ar){
-    case 1.0 :  s1="Kindergarten"
+    case 1.0 :  s1="Kindergarten";
               break;
     case 2.0 :  s1="First/Second Grade";
               break;
     case 3.0 :  s1="Third Grade";
               break;
-    case 4.0 :  s1="Fourth Grade"
+    case 4.0 :  s1="Fourth Grade";
               break;
-    case 5.0 :  s1="Fifth Grade"
+    case 5.0 :  s1="Fifth Grade";
               break;
-    case 6.0 :  s1="Sixth Grade"
+    case 6.0 :  s1="Sixth Grade";
               break;
     case 7.0 :  s1="Seventh Grade";
               break;
