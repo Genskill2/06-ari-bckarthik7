@@ -1,6 +1,6 @@
 string ari (string s){
   float a=0.0,b=0.0,c=0.0;
-  float a;
+  float a1;
   float ar;
   string s1;
   for(int i=0;s[i]!=\n;i++){
@@ -10,8 +10,8 @@ string ari (string s){
       b++;
     c++;
   }
-  a=4.71*(c/a)*(a/b);
-  ar=ceil(a);
+  a1=4.71*(c/a)*(a/b);
+  ar=ceil(a1);
   switch (ar){
     case 1.0 :  s1="Kindergarten"
               break;
