@@ -5,10 +5,10 @@ string ari (string s){
   string s1;
   for(int i=0;s[i]!=\n;i++){
     if(s[i]==' ')
-      a++;
+      a=a+1.0;
     if(s[i]=='.')
-      b++;
-    c++;
+      b=b+1.0;
+    c=c+1.0;
   }
   a1=4.71*(c/a)*(a/b);
   ar=ceil(a1);
